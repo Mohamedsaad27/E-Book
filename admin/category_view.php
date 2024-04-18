@@ -3,13 +3,13 @@
     include("../includes/connection.php");
     include("functions/process_category_view_data.php");
 
-    $search = $_GET['search'];
+	$search = isset($_GET['search']) ? $_GET['search'] : '';
     $category_query = "SELECT * FROM `category_table` WHERE `category_name` LIKE '%$search%'";
     $category_result = mysqli_query($connection_database, $category_query);
     $count = 1;
 ?>
         <div class="px-md-4">
-            <h2>View Category</h2>
+            <h2>View Categories</h2>
 
             <form method="GET" action="category_view.php" class="form-inline">
                 <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search">

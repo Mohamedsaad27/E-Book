@@ -14,7 +14,7 @@
                         <div class="card-body d-flex flex-column align-items-start">
                             <strong class="d-inline-block mb-2 text-primary"><?php echo $book_row['book_name']; ?></strong>
                             <h3 class="mb-0">
-                                ₸ <?php echo $book_row['book_price']; ?> 
+                                EGP <?php echo $book_row['book_price']; ?> 
                             </h3>
                             <p class="card-text mb-auto">
                                 <?php echo $book_row['book_description']; ?>

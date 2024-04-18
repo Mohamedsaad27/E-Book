@@ -3,13 +3,13 @@
     include("../includes/connection.php");
     include("functions/process_book_view.php");
 
-    $search = $_GET['search'];
+	$search = isset($_GET['search']) ? $_GET['search'] : '';
     $book_list_query = "SELECT * FROM `book_table` WHERE `book_name` LIKE '%$search%'";
     $book_list_result = mysqli_query($connection_database, $book_list_query);
 ?>
 
         <div class="px-md-4">
-            <h2 class="page-header">View Book</h2>
+            <h2 class="page-header">View Books</h2>
                 
             <form method="GET" action="book_view.php" class="form-inline">
                 <input class="form-control mr-sm-2" type="text" name="search" placeholder="Search" aria-label="Search">
