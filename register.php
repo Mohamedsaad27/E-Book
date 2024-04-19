@@ -12,7 +12,7 @@ display_notification_messages_sucesses();
         <div class="row d-flex justify-content-center">
             <div class="col-md-8 col-lg-10 col-xl-10 mt-5">
                 <p class="text-center fs-1 fw-bold mb-5">Register For Free</p>
-                <form action="/functions/register_process.php" method="POST">
+                <form action="functions/register_process.php" method="POST">
                     <div class="row justify-content-center">
                         <div class="col-xl-5 col-lg-6 col-md-6 col-12">
 
