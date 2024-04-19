@@ -30,9 +30,9 @@ session_start();
 		src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
 
 	<!-- link main style -->
-	<link rel="stylesheet" href="../assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 
-	<script src="../assets/js/main.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </head>
 
