@@ -10,8 +10,7 @@ display_notification_messages_sucesses();
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-9 col-lg-6 col-xl-5">
-                <img src="book_img/draw2.webp"
-                    class="img-fluid" alt="Sample image">
+                <img src="book_img/draw2.webp" class="img-fluid" alt="Sample image">
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                 <form class="login" action="functions/login_process.php" method="POST">
@@ -58,6 +57,7 @@ display_notification_messages_sucesses();
                             value="Login" style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
                         <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="register.php"
                                 class="link-danger">Register</a></p>
+                        <a class="small fw-bold mb-0" href="admin/login.php">Are You Admin ?</a>
                     </div>
 
                 </form>
@@ -65,10 +65,6 @@ display_notification_messages_sucesses();
         </div>
     </div>
 </section>
-
-
-
-
 
 <?php
 include ("includes/footer.php");

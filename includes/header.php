@@ -8,7 +8,7 @@ session_start();
 
 <head>
 
-	<title>Bookstore Management System</title>
+	<title>E BOOK</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width" , initial-scale=1.0>
@@ -30,9 +30,9 @@ session_start();
 		src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
 
 	<!-- link main style -->
-	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="../assets/css/main.css">
 
-	<script src="assets/js/main.js"></script>
+	<script src="../assets/js/main.js"></script>
 
 </head>
 
@@ -120,15 +120,37 @@ session_start();
 	<!-- Sidebar -->
 	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
 		style="width:265px !important; ">
-		<div class="offcanvas-header">
-			<h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+		<div class="offcanvas-header border-bottom">
+			<h5 class="offcanvas-title" id="offcanvasExampleLabel">E BOOK</h5>
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		</div>
 		<div class="offcanvas-body">
 			<div>
 
+				<!-- search -->
+				<form method="GET" action="search.php" class="d-block d-lg-none d-xl-none">
+					<div class="search-box">
+						<button class="btn-search" type="submit"><i class="fas fa-search"></i></button>
+						<input type="text" name="search" class="bg-transparent input-search w-100" placeholder="Type to Search...">
+					</div>
+				</form>
+
+				<ul class="navbar-nav mb-2 mb-lg-0 mt-3 fs-6 ms-3 me-3">
+					<li class="nav-item">
+						<a class="nav-link" href="index.php">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="book_list.php">List</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.php">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.php">About</a>
+					</li>
+				</ul>
 			</div>
-			<div class="dropdown mt-3">
+			<!-- <div class="dropdown mt-3">
 				<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
 					Dropdown button
 				</button>
@@ -137,6 +159,6 @@ session_start();
 					<li><a class="dropdown-item" href="#">Another action</a></li>
 					<li><a class="dropdown-item" href="#">Something else here</a></li>
 				</ul>
-			</div>
+			</div> -->
 		</div>
 	</div>

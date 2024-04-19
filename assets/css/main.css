@@ -21,6 +21,10 @@
     }
 }
 
+.form-outline.has-text .form-notch .form-notch-middle{
+    border-top: none !important;
+}
+
 .form-control:invalid+.form-label {
     color: red !important;
 }
@@ -71,7 +75,7 @@
     color: rgba(0, 0, 0, .5);
     font-size: 15px;
     letter-spacing: 2px;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .btn-search {
@@ -200,3 +204,16 @@
 }
 
 /* start dropdown user */
+
+.offcanvas-body .navbar-nav .nav-item{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.offcanvas-body .navbar-nav .nav-item:hover{
+    background-color: rgb(216, 216, 216);
+}
