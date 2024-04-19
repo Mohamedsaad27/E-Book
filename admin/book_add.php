@@ -9,7 +9,15 @@
                 <div class=" mb-4">
                     <div class="card-header">New book</div>
                         <div class="card-body">
-
+                        <?php if (!empty($errors)) { ?>
+                    <div class="alert alert-danger">
+                        <ul>
+                            <?php foreach ($errors as $error) { ?>
+                                <li><?php echo $error; ?></li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                <?php } ?>
                             <div class="mb-3">
                                 <label class="small mb-1">Name of the Book</label>
                                 <input name="book_name" class="form-control" type="text" placeholder="Name of the Book">
