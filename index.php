@@ -29,7 +29,7 @@
                                             <div class="card-body">
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <small class="text-body-secondary"><?php echo $row['book_name']; ?></small>
-                                                    <small class="text-body-secondary">₸ <?php echo $row['book_price']; ?></small>
+                                                    <small class="text-body-secondary">EGP <?php echo $row['book_price']; ?></small>
                                                 </div>
                                             </div>
                                         </div>

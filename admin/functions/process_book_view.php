@@ -17,7 +17,7 @@
                                                       
             echo '
                     <td>' . @date("d-M-y", $book_row['book_time']) . '</td>
-                    <td align="center"><a class="btn btn-danger btn-sm" href="functions/process_book_del.php?id=' . $book_row['book_id'] . '">Delate</a></td>
+                    <td align="center"><a class="btn btn-danger btn-sm" href="functions/process_book_del.php?id=' . $book_row['book_id'] . '">Delete</a></td>
                     <td align="center"><a class="btn btn-info btn-sm" href="book_edit.php?id=' . $book_row['book_id'] . '">Edit</a></td>
                 </tr>';
         }

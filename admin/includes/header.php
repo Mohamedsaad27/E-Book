@@ -14,7 +14,7 @@ if (!isset($_SESSION['admin']['status'])) {
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Admin Panel</title>
+	<title>Publishing House Panel</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -33,7 +33,7 @@ if (!isset($_SESSION['admin']['status'])) {
 
 	<nav class="navbar navbar-dark bg-dark px-md-4">
 
-		<a class="navbar-brand" href="index.php">Admin Panel</a>
+		<a class="navbar-brand" href="index.php">Publishing House Panel</a>
 
 		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample01"
 			aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,7 @@ if (!isset($_SESSION['admin']['status'])) {
 				<li class="nav-item">
 					<a class="nav-link" href="../admin/order_view.php">Orders</a>
 					<a class="nav-link" href="../admin/contact_view.php">Contact</a>
-					<a class="nav-link" href="../admin/users_view.php">Users</a>
+					<a class="nav-link" href="../admin/users_view.php">Libraries</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown"
